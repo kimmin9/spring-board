@@ -12,7 +12,7 @@ import kr.kmg.dao.BoardDao;
 import kr.kmg.vo.Board;
 import kr.kmg.vo.BoardReply;
 
-@Service("boardService")
+@Service("BoardService")
 public class BoardServiceImpl implements BoardService {
  
     @Resource(name="boardDao")

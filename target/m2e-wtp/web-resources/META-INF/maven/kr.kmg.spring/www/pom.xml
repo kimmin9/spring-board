@@ -32,6 +32,11 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.4</version>
+		</dependency>
 		<!-- MySQL -->
         <dependency>
             <groupId>mysql</groupId>
@@ -67,6 +72,19 @@
             <version>${org.springframework-version}</version>
         </dependency>
 
+		<!-- mail 인증을  위한 설정-->
+        <!-- mail -->
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>${org.springframework-version}</version>
+        </dependency>
+        
 		<!-- AspectJ -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
